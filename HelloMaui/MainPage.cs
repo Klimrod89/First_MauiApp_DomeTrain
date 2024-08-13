@@ -10,8 +10,11 @@ public class MainPage : BaseContentPage
 {
     public MainPage()
     {
+        BackgroundColor = Colors.DarkViolet;
         Content = new VerticalStackLayout
         {
+            Spacing = 12,
+            BackgroundColor = Colors.LightSteelBlue,
             Children =
             {
                 new Image()
